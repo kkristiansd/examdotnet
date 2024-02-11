@@ -1,0 +1,53 @@
+﻿@page "/ViewEmails"
+@using blazor.Data
+@inject IEmailService EmailService
+@inject NavigationManager NavigationManager
+@using blazor.Pages
+
+<h3>Email List</h3>
+<EmailStats />
+@if (Emails != null && Emails.Any())
+{
+    <ul>
+        @foreach (var email in Emails)
+        {
+            <li @onclick="() => OpenEmailDetails(email)">
+                <strong>Subject:</strong> @email.Title
+                <br />
+                <strong>Sender:</strong> @email.Sender
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No emails available.</p>
+}
+
+@if (SelectedEmail != null)
+{
+    <div>
+        <h4>Email Details</h4>
+        <strong>Receiver:</strong> @SelectedEmail.Reciever
+        <br />
+        <strong>Body:</strong> @SelectedEmail.Body
+        <br />
+        <strong>Time Sent:</strong> @SelectedEmail.TimeSent.ToString("yyyy-MM-dd HH:mm:ss")
+    </div>
+}
+
+@code {
+    private List<Email> Emails;
+    private Email SelectedEmail;
+
+    protected override void OnInitialized()
+    {
+    // Call a method from EmailService to fetch or load the list of emails
+        Emails = EmailService.ViewEmail();
+    }
+
+    private void OpenEmailDetails(Email email)
+    {
+        SelectedEmail = email;
+    }
+}

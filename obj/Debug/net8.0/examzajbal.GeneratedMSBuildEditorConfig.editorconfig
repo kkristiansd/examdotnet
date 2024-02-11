@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = examzajbal
+build_property.RootNamespace = examzajbal
+build_property.ProjectDir = C:\Users\Bruger\RiderProjects\examzajbal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Bruger\RiderProjects\examzajbal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXEFwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/EmailStats.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXEVtYWlsU3RhdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/SendEmail.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXFNlbmRFbWFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/ViewEmails.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXFZpZXdFbWFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFNoYXJlZFxTdXJ2ZXlQcm9tcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFNoYXJlZFxNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-khvyejcxbt
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFNoYXJlZFxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-yfy5379k2e
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruger/RiderProjects/examzajbal/blazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Ymxhem9yXFBhZ2VzXF9Ib3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,49 @@
+﻿@page "/SendEmail"
+@using blazor.Data
+@inject IEmailService EmailService
+@inject IJSRuntime JSRuntime
+
+
+<h3>SendEmail</h3>
+
+<div>
+    <label for="receiver">Receiver:</label>
+    <input id="receiver" @bind="emailModel.Reciever" />
+</div>
+<div>
+    <label for="receiver">Title:</label>
+    <input id="receiver" @bind="emailModel.Title" />
+</div>
+<div>
+    <label for="receiver">Body:</label>
+    <input id="receiver" @bind="emailModel.Body" />
+</div>
+<button @onclick="Send">Send Email</button>
+<button @onclick="SendAndPrintEmail">Send and Print Email</button>
+
+@code {
+    private Email emailModel = new Email("", "", "", "", DateTime.Now);
+
+    private async Task Send()
+    {
+        await EmailService.SendEmail(emailModel);
+        await ShowBrowserMessage("done");
+    }
+
+    private async Task SendAndPrintEmail()
+    {
+        await Send();
+
+    // Serialize the email to JSON and print it to the console
+        var serializedEmail = System.Text.Json.JsonSerializer.Serialize(emailModel);
+        Console.WriteLine($"Email sent and printed: {serializedEmail}");
+
+    }
+
+    private async Task ShowBrowserMessage(string message)
+    {
+    // Show a simple alert
+        await JSRuntime.InvokeVoidAsync("alert", message);
+    }
+
+}

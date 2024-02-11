@@ -1,0 +1,31 @@
+﻿@using blazor.Data
+
+@inject IEmailService EmailService
+
+<div>
+    <h3>Email Statistics</h3>
+
+    <p>Sent by you: @SentByYouCount</p>
+    <p>Received by others: @ReceivedByOthersCount</p>
+</div>
+
+@code {
+    private int SentByYouCount;
+    private int ReceivedByOthersCount;
+
+    protected override void OnInitialized()
+    {
+        // Use IEmailService to get the counts
+        UpdateEmailStatistics();
+    }
+
+    private void UpdateEmailStatistics()
+    {
+        // Fetch or load email statistics from the service
+        var emailStatistics = EmailService.GetEmailStatistics();
+
+        // Update component properties
+        SentByYouCount = emailStatistics.SentByYouCount;
+        ReceivedByOthersCount = emailStatistics.ReceivedByOthersCount;
+    }
+}

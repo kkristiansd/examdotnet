@@ -1,0 +1,7 @@
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.AssemblyInfoInputs.cache
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.AssemblyInfo.cs
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.RazorAssemblyInfo.cache
+C:\Users\Bruger\RiderProjects\examzajbal\obj\Debug\net8.0\examzajbal.RazorAssemblyInfo.cs
